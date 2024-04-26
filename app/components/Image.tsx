@@ -15,11 +15,22 @@ export default function ImageGenerator({ profileUrl }: { profileUrl: string }) {
       <div
         style={{
           display: "flex",
-          padding:"16px 32px 0 32px",
+          padding:"16px 32px 0 60px",
+          
         }}
 
       >
-        <h1>ConvoGrid</h1>
+        <div style={{
+          display: "flex",
+          backgroundColor:"white",
+          alignItems:"center",
+          padding:"0px 32px 0px 32px",
+          borderRadius:"24px 20px 52px 24px",
+        }}> 
+        <img src="https://intervee.s3.amazonaws.com/Group+36764.png" height={"50px"} width={"80px"}></img>
+                <h1 style={{fontWeight:"800"}}>ConvoGrid</h1>
+        </div>
+
         
       </div>
       <div style={{display:"flex",justifyContent:"center",alignItems:"center"}}>
