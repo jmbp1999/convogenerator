@@ -1,0 +1,13 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    opacity: 0.3;
+    background-image: radial-gradient(circle at center center, #0084de, #ffffff), repeating-radial-gradient(circle at center center, #0084de, #0084de, 5px, transparent 10px, transparent 5px);
+    background-blend-mode: multiply;
+}
